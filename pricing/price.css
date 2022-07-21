@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #top_banner{
     background-color: #465DEF;
     height: 120px;
@@ -44,4 +47,122 @@
     border-radius: 20px;
     margin-right: 10px;
     cursor: pointer;
+}
+#price_1{
+    /* border: 1px solid; */
+    width: 25%;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+#price_2{
+    /* border: 1px solid; */
+    width: 25%;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+#price_3{
+    /* border: 1px solid; */
+    width: 25%;
+    margin-top: 0px;
+    text-align: center;
+    /* background-color: #465DEF; */
+    
+}
+#price_4{
+    /* border: 1px solid; */
+    width: 25%;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+.box_up{
+    /* border: 1px solid; */
+    margin: 5px 5px 0px 5px;
+    border-radius: 12px 12px 0px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 0px 0px, rgba(0, 0, 0, 0.32) 0px 0px 20px 0px; */
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+}
+.box_down{
+    /* border: 1px solid; */
+    margin: 2px 5px 5px 5px;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 0px 0px 12px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 0px 0px, rgba(0, 00, 0, 0.32) 0px 10px 20px 0px; */
+    padding: 20px 0px 20px 30px;
+    background-color: white;
+    height: 45%;
+    font-weight: 600;
+}
+#button_1{
+    padding: 10px 15px 10px 15px;
+    font-size: large;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: #465DEF;
+    border-color: #465DEF;
+}
+#button_1:hover{
+background-color: white;
+color: black;
+border-color: #465DEF;
+}
+#price_container{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241,241,242);
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 0px 0px, rgba(0, 00, 0, 0.32) 0px 10px 20px 0px;
+    
+}
+#box_up_pro{
+    background-color: #465DEF;
+    margin: 5px 5px 0px 5px;
+    border-radius: 12px 12px 0px 0px;
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+#box_down_pro{
+    background-color: #465DEF;
+    margin: 2px 5px 5px 5px;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 0px 0px 12px 12px;
+   color: white;
+    padding: 20px 0px 20px 30px;
+    height: fit-content;
+    
+}
+#button_3{
+    padding: 10px 15px 10px 15px;
+    font-size: large;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color:#465DEF;
+    background-color: #ffffff;
+    border-color: #465DEF;
+}
+#button_3:hover{
+    background-color: rgb(34, 30, 30);
+    color: white;
+}
+#greenTag{
+    /* border: 1px solid; */
+    width: 40%;
+    margin: auto;
+    font-weight: 100;
+    background-color: rgb(72,244,149);
+    color: black;
+    padding: 5px;
+    border-radius: 0px 10px 10px 10px ;
+    margin-top: -35px;
 }
