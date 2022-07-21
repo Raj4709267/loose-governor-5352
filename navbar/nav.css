@@ -16,7 +16,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    width: 100vw;
+    width: 100%;
 } 
 
 #navbar>div{
@@ -104,6 +104,7 @@
     margin: auto;
     padding: 5px;
     border-radius: 6px;
+    background: white;
 }
 #product:hover>#drop_down{
     display: flex;
