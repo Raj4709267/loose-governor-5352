@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    border-radius: 50%;
+    right: 28px;
+    border: none;
+    background:transparent;
+}
+
+.open-button>img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    /* z-index: 9; */
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+/* Add styles to the form container */
+/* .form-container {
+  
+} */
+
+/* Full-width textarea */
+/* .form-container textarea {
+    display: none;
+} */
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+#c_top_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #324cec;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#c_top_logo img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+#c_top_logo button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 0px;
+    color: white;
+    background: transparent;
+}
+
+#c_top_logo button>img {
+    width: 25px;
+
+}
+
+#c_top_logo p {
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#c_top_logo p:last-child {
+    color: white;
+    font-size: 10px;
+}
+
+#chat_body {
+    margin:20px;
+    font-size: 14px;
+}
+
+#chat_body>div {
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#chat_body img {
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#chat_body>div div {
+    background: #ebedfd;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+#chat_ans{
+    margin-left: 30px;
+
+}
+#chat_ans p{
+    padding: 8px 10px;
+    background: #324cec;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+}
