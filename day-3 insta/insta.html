@@ -5,6 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat'; */
+    
+}
+#navbar{
+    box-shadow: rgba(20, 88, 247, 0.16) 0px 1px 4px;
+    background:white;
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+} 
+
+#navbar>div{
+    align-items: center;
+}
+
+/* main_logo */
+
+#main_logo{
+    margin-left: 9%;
+}
+#main_logo img{
+    height: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* main_menu */
+#nav_menu{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-right: 4%;
+    gap: 50px;
+    height: 100%;
+}
+#nav_menu a{
+    text-decoration: none;
+    color: black ;
+    font-size:14px;
+    font-family: Montserrat;
+    line-height: 20px;
+    font-weight: 600;
+}
+#nav_menu a:hover{
+    color: #465def;
+}
+
+#nav_menu>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+}
+#nav_menu>div:hover{
+   border-bottom: 2px solid #465def;
+}
+#nav_menu>div:last-child{
+    border-bottom: none;
+}
+/* menu button */
+#nav_menu button{
+    border-radius: 5px;
+    margin-right: 15px;
+    border: 1px solid #465def ;
+    font-size: 15px;
+    padding: 9px 14px 7px 14px;
+}
+#nav_b1{
+    color: #465def ;
+    font-family: Montserrat;
+    background: white;
+    font-weight: bold;
+}
+#nav_b1:hover{
+    background: #eff2ff;
+}
+#nav_b2{
+    background: #465def ;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 600;
+}
+#nav_b2:hover{
+    background: #3249db;
+}
+
+#drop_down{
+    display: none;
+    flex-direction: column;
+    width: 180px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: 100%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 6px;
+}
+#product:hover>#drop_down{
+    display: flex;
+}
+#drop_down>a{
+    margin: 14px;
+    font-weight: 100;
+}
+#product{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
            #head{
         display:flex;
         height:550px;
@@ -35,7 +156,7 @@
     height:650px;
     margin: auto;
     margin-bottom: 100px;
-   
+   display: flex;
     
 }
 #top2>div:nth-child(1){
@@ -49,12 +170,14 @@
 #top2>div:nth-child(1)>div{
     border: 1px solid red;
     display: flex;
-    
+     cursor: pointer;
+}
+#top2>div:nth-child(1)>div:hover {
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(141, 136, 136, 0.204));
+  filter: url(#drop-shadow);
 }
 
-#top2>div:nth-child(1)>div::shadow{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+
 #top2>div:nth-child(1)>div>div>p{
    font-size: 15px;
 }
@@ -81,8 +204,11 @@
 #mid1{
         height: 600px;
         display: flex;
+        margin-top: 120px;
         margin-bottom: 80px;
+      
        }
+
        #mid1>div:nth-child(1){
         width: 50%;
         border: 1px solid red;
@@ -163,6 +289,9 @@
     </style>
 </head>
 <body>
+    <div id="navbar">
+
+    </div>
     <div id="head">
         <div id="free"></div>
         <div>
@@ -221,7 +350,7 @@
             </div>
 
         </div>
-        <div></div>
+        <div><img src="https://i.ibb.co/TWtbDmV/abhi.png" alt="abhi" border="0"></div>
     </div>
 
     <!--       mid       -->
@@ -256,5 +385,7 @@
 </div>
 </body>
 </html>
+<script src="./insta.js" type="module">
 
+</script>
 
