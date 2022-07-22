@@ -19,7 +19,7 @@ function navbar(page) {
         </div>
     </div>
     <div>
-        <a href="./whatsapp.html">
+        <a href="../whatapp/whatsapp.html">
             WhatsApp
         </a>
     </div>

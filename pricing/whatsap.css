@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+
+    font-family: 'Montserrat';
+}
+
+#plane_container{
+    /* border: 1px solid; */
+    text-align: center;
+    display: flex;
+    width:70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.plan_box{
+    border: 1px solid rgb(224, 224, 224);
+    width: 30%;
+    border-radius: 5px;
+    height: 840px;
+    
+}
+img{
+    width: 10%;
+    box-sizing: content-box;
+    margin-top: 20px;
+}
+#price_detail{
+    /* border: 1px solid; */
+    text-align: left;
+    padding-left: 30px;
+    margin: 10px;
+    background-color: rgb(246,249,255);
+    border-radius: 8px;
+    height: 60%;
+
+    
+}
+#add_on{
+    border: 1px solid rgb(219, 215, 215); 
+    margin: auto;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+#add_on>div{
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+}
+#sdemo{
+    margin-left: 28%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #465DEF, rgb(87, 201, 246));
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+p{
+    font-size: small;
+    font-weight: 600;
+}
+.slogo{
+    width: 6%;
+    margin-left: 5px;
+}
+#third{
+    margin-left: 28%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #465DEF, rgb(87, 201, 246));
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 150px;
+}
+#blue{
+    color:#465DEF;
+    font-weight: 700;
+    cursor: pointer;
+}
+#messagePlans{
+    /* border: 1px solid; */
+    width: 65%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(246,249,255);
+    padding-bottom: 50px;
+}
+#table{
+    width: 90%;
+    margin: auto;
+    color: rgb(76, 75, 75);
+   
+}
+#table>table, th, td{
+    border: 1px solid rgb(219, 219, 219);
+  border-collapse: collapse;   
+  padding: 10px;
+  background-color: white;
+  font-size: medium;
+  margin: auto;
+}
+#payper{
+    /* border: 1px solid; */
+    width: 70%;
+    text-align: center;
+    background-color: rgb(138,166,221);
+    color: white;
+    border-radius: 10px;
+    height: 550px;
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#payper>p{
+    font-weight: 500;
+    font-size: medium;
+}
+#twobox{
+    display: flex;
+    /* border: 1px solid; */
+    gap: 30px;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+.mass{
+    /* border: 1px solid; */
+    padding: 20px 10px 20px 10px;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height:150px;
+}
+#btn{
+    padding: 15px 150px 15px 150px;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-top: 20px;
+   
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
