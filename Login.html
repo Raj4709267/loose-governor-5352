@@ -9,6 +9,21 @@
    
 </head>
 <style>
+     @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    
+    font-family: 'Montserrat';
+    
+}
+#content input{
+/* all: unset; */
+/* margin-left: 30px; */
+resize: none;
+    outline: none;
+
+
+}
     #container{
         /* border: 1px solid black; */
         width: 45%;
@@ -307,7 +322,7 @@
       if(checkSignin(data.email,data.password)===true){
          localStorage.setItem("signin",JSON.stringify(data));
          alert("Sign in Successfully");
-         window.location.href="index.html";
+         window.location.href="price.html";
       }else{
          alert("Wrong Username or Password");
       }
