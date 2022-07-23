@@ -61,7 +61,7 @@ scroollElement.innerHTML = `<ion-icon name="arrow-up-outline" class="scroll-top"
 footerElem.after(scroollElement);
 
 const scrollTop = () => {
-  heroSection.scrollIntoView({ behavior: "smooth" });
+//   heroSection.scrollIntoView({ behavior: "smooth" });
 };
 
 scroollElement.addEventListener("click", scrollTop);
@@ -70,3 +70,23 @@ scroollElement.addEventListener("click", scrollTop);
 
 // document.querySelector("#navbar").innerHTML=navbar();
 
+
+import footer from '../component/footer.js';
+import chatbox from '../component/chatbox.js';
+import navbar from '../component/navbar.js';
+// import footer from '../component/footer.js';
+
+document.querySelector("#footer").innerHTML=footer();
+document.querySelector("#chatbox").innerHTML=chatbox();
+document.querySelector("#navbar").innerHTML=navbar();
+
+
+
+// function closeForm() {
+//    document.getElementById("myForm").style.display = "none";
+// }
+
+// document.querySelector(".open-button").addEventListener("click",openForm)
+// function openForm() {
+//    document.getElementById("myForm").style.display = "block";
+// }

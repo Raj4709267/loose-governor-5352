@@ -1,7 +1,10 @@
 import navbar from "../component/navbar.js"
 
-document.querySelector("#navbar").innerHTML=navbar()
+document.querySelector("#navbar").innerHTML=navbar("whatsapp")
 
+import chatbox from "../component/chatbox.js"
+
+document.querySelector("#chatbox").innerHTML=chatbox()
 
 
 

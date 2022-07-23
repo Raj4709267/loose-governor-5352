@@ -7,4 +7,11 @@ import navbar from "../component/navbar.js"
 
  document.querySelector("#footer").innerHTML=footer()
 
+ 
+ import chatbox from "../component/chatbox.js"
+
+ document.querySelector("#chatbox").innerHTML=chatbox()
+
+
+
 

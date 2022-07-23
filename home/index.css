@@ -13,10 +13,12 @@ body {
     overflow-x: hidden;
 }
 
+
 #container-two-div {
     width: 100%;
     height: auto;
     margin-bottom: 100px;
+    margin-top: 100px;
     /* border: 1px solid red; */
     display: flex;
     gap: 50px;
