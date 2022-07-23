@@ -22,6 +22,12 @@
 .open-button>img {
     height: 70px;
     border-radius: 50%;
+    position: fixed;
+    bottom: 23px;
+    border-radius: 50%;
+    right: 28px;
+    /* border: none;
+    background:transparent; */
 }
 
 /* The popup chat - hidden by default */
@@ -40,17 +46,6 @@
 
 }
 
-/* Add styles to the form container */
-/* .form-container {
-  
-} */
-
-/* Full-width textarea */
-/* .form-container textarea {
-    display: none;
-} */
-
-/* When the textarea gets focus, do something */
 .form-container textarea:focus {
     background-color: #ddd;
     outline: none;

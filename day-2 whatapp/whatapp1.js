@@ -1,7 +1,10 @@
 import navbar from "../component/navbar.js"
 
-document.querySelector("#navbar").innerHTML=navbar()
+document.querySelector("#navbar").innerHTML=navbar("whatsapp")
 
+import chatbox from "../component/chatbox.js"
+
+document.querySelector("#chatbox").innerHTML=chatbox()
 
 
 
@@ -75,3 +78,7 @@ function fourth()
     }
 
 
+
+    // footer  ////
+    import footer from "../component/footer.js"
+    document.querySelector("#footer").innerHTML=footer()
