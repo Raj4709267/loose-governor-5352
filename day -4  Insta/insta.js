@@ -1,6 +1,6 @@
 import navbar from "../component/navbar.js"
 
- document.querySelector("#navbar").innerHTML=navbar()
+ document.querySelector("#navbar").innerHTML=navbar("insta")
 
 
  import footer from "../component/footer.js"
