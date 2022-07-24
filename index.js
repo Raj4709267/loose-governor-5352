@@ -71,9 +71,9 @@ scroollElement.addEventListener("click", scrollTop);
 // document.querySelector("#navbar").innerHTML=navbar();
 
 
-import footer from '../component/footer.js';
-import chatbox from '../component/chatbox.js';
-import navbar from '../component/navbar.js';
+import footer from './component/footer.js';
+import chatbox from './component/chatbox.js';
+import navbar from './component/navbar.js';
 // import footer from '../component/footer.js';
 
 document.querySelector("#footer").innerHTML=footer();
